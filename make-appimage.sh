@@ -12,6 +12,9 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/com.github.Rosalie241.RMG.svg
 export DESKTOP=/usr/share/applications/com.github.Rosalie241.RMG.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
+# libRMG-Core.so is hardcoded to /usr/lib/RMG but the library does not contain 
+# the string '/usr/lib/RMG', it contains '/usr/libL' instead with a capital L
+export PATH_MAPPING_HARDCODED='libRMG-Core.so*'
 
 # Deploy dependencies
 quick-sharun \
