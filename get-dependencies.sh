@@ -10,7 +10,7 @@ echo "---------------------------------------------------------------"
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common
 
 # build with x86_64_v3
 sed -i -e 's|march=x86-64|march=x86-64-v3|g' /etc/makepkg.conf
