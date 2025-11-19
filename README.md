@@ -7,6 +7,12 @@
 
 ---
 
+**Disclaimer**
+
+The Official RMG AppImage releases are already very good since they use sharun, this repo was made mainly for [emuze](https://github.com/bmsuseluda/emuze) using the [debloated packages](https://github.com/pkgforge-dev/archlinux-pkgs-debloated) repo to reduce the size of the AppImage to nearly half.
+
+---
+
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it extremely easy to turn any binary into a portable package without using containers or similar tricks.
 
 **This AppImage bundles everything and should work on any linux distro, even on musl based ones.**
