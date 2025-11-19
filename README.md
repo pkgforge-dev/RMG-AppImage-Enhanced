@@ -9,7 +9,7 @@
 
 **Disclaimer**
 
-The Official RMG AppImage releases are already very good since they use sharun, this repo was made mainly for [emuze](https://github.com/bmsuseluda/emuze) using the [debloated packages](https://github.com/pkgforge-dev/archlinux-pkgs-debloated) repo to reduce the size of the AppImage to nearly half.
+The Official RMG AppImage releases are already very good since they use sharun, this repo was made mainly for [emuze](https://github.com/bmsuseluda/emuze) using the [debloated packages](https://github.com/pkgforge-dev/archlinux-pkgs-debloated) repo to reduce the size of the AppImage to nearly half. They are also compiled targetting `x86-64-v3` for better performance. 
 
 ---
 
