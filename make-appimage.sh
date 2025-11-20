@@ -18,12 +18,7 @@ export DEPLOY_VULKAN=1
 export PATH_MAPPING_HARDCODED='libRMG-Core.so*'
 
 # Deploy dependencies
-quick-sharun \
-  /usr/bin/RMG       \
-  /usr/lib/RMG       \
-  /usr/lib/RMG/*     \
-  /usr/lib/RMG/*/*   \
-  /usr/lib/RMG/*/*/*
+quick-sharun /usr/bin/RMG /usr/lib/RMG
 
 # Additional changes can be done in between here
 
