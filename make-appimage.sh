@@ -15,8 +15,10 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 # libRMG-Core.so is hardcoded to /usr/lib/RMG but the library does not contain 
 # the string '/usr/lib/RMG', it contains '/usr/libL' instead with a capital L
-export PATH_MAPPING_HARDCODED='libRMG-Core.so*'
-export PATH_MAPPING='/usr/share/RMG:${SHARUN_DIR}/share/RMG'
+export PATH_MAPPING='
+	/usr/share/RMG:${SHARUN_DIR}/share/RMG
+  	/usr/lib/RMG:${SHARUN_DIR}/lib/RMG
+'
 
 # Deploy dependencies
 quick-sharun /usr/bin/RMG /usr/lib/RMG
