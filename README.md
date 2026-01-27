@@ -1,21 +1,31 @@
+<div align="center">
+
 # RMG-AppImage-Enhanced 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/RMG-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/RMG-AppImage-Enhanced/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/RMG-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/RMG-AppImage-Enhanced/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/RMG-AppImage-Enhanced)](https://github.com/pkgforge-dev/RMG-AppImage-Enhanced/releases/latest)
 
-* [Latest Stable Release](https://github.com/pkgforge-dev/RMG-AppImage-Enhanced/releases/latest)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rosalie241/RMG/e9167db9ffbb16e10ac62a0a449dd6bfd124493a/Package/com.github.Rosalie241.RMG.svg" width="128" />
+</p>
 
----
+
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/RMG-AppImage-Enhanced/releases/latest) | [Click here](https://github.com/Rosalie241/RMG) |
 
 **Disclaimer**
 
 The Official RMG AppImage releases are already very good since they use sharun, this repo was made mainly for [emuze](https://github.com/bmsuseluda/emuze) using the [debloated packages](https://github.com/pkgforge-dev/archlinux-pkgs-debloated) repo to reduce the size of the AppImage to nearly half. They are also compiled targetting `x86-64-v3` for better performance. 
 
+</div>
+
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it extremely easy to turn any binary into a portable package without using containers or similar tricks.
+AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
 
-**This AppImage bundles everything and should work on any linux distro, even on musl based ones.**
+**This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
 It is possible that this appimage may fail to work with appimagelauncher, I recommend these alternatives instead: 
 
@@ -26,6 +36,10 @@ It is possible that this appimage may fail to work with appimagelauncher, I reco
 * [soar](https://github.com/pkgforge/soar) `soar install rmg-enhanced`
 
 This AppImage can work **without FUSE** at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
+
+This AppImage is also supplied with a self-updater by default, so any updates to this application won't be missed, you will be prompted for permission to check for updates and if agreed you will then be notified when a new update is available.
+
+Self-updater is disabled by default if AppImage managers like [am](https://github.com/ivan-hc/AM), [soar](https://github.com/pkgforge/soar) or [dbin](https://github.com/xplshn/dbin) exist, which manage AppImage updates.
 
 <details>
   <summary><b><i>raison d'être</i></b></summary>
