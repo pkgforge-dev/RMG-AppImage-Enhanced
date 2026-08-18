@@ -27,15 +27,7 @@ AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppI
 
 **This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
-It is possible that this appimage may fail to work with appimagelauncher, I recommend these alternatives instead: 
-
-* [AM](https://github.com/ivan-hc/AM) `am -i rmg-enhanced` or `appman -i rmg-enhanced`
-
-* [dbin](https://github.com/xplshn/dbin) `dbin install rmg-enhanced.appimage`
-
-* [soar](https://github.com/pkgforge/soar) `soar install rmg-enhanced`
-
-This AppImage can work **without FUSE** at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
+This AppImage doesn't require FUSE to run at all, thanks to the [uruntime](https://github.com/VHSgunzo/uruntime).
 
 This AppImage is also supplied with a self-updater by default, so any updates to this application won't be missed, you will be prompted for permission to check for updates and if agreed you will then be notified when a new update is available.
 
@@ -49,4 +41,4 @@ Self-updater is disabled by default if AppImage managers like [am](https://githu
 
 ---
 
-More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/) 
+More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
