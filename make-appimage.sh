@@ -7,7 +7,7 @@ VERSION=$(pacman -Q rmg | awk '{print $2; exit}') # example command to get versi
 export ARCH VERSION
 export OUTPATH=./dist
 export APPNAME=RMG
-export ADD_HOOKS="self-updater.bg.hook:x86-64-v3-check.hook"
+export ADD_HOOKS="self-updater.hook:x86-64-v3-check.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/com.github.Rosalie241.RMG.svg
 export DESKTOP=/usr/share/applications/com.github.Rosalie241.RMG.desktop
